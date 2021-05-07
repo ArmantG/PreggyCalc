@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dpSyXh0Uj5PTOPI/X2iYIA9IVihPZaqUgzYaaVA7banJIGEbHevB50kFWG8QOKHUDDh3uUReuaKMov4qiTe06A==",
+  "success": true,
+  "projectFilePath": "c:\\Projects\\PreggyCalc\\PreggyCalc.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Armant\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}
