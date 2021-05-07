@@ -45,7 +45,7 @@ namespace ConceptCalc
         private static void PregCalc()
         {
             Clear();
-            WriteLine("Choose a input method: ");
+
             WriteLine("1: Enter your due date");
             WriteLine("2: Enter your conception date");
             WriteLine("4: Enter your 1st day of your last period date");
@@ -57,24 +57,28 @@ namespace ConceptCalc
             {
                 try
                 {
-                    WriteLine("Enter your due date - use the format dd/mm/yyyy");
-                    string dueDateInput = ReadLine();
-                    var dateFormats = new[] { "dd.MM.yyyy", "dd-MM-yyyy", "dd/MM/yyyy" };
-                    DateTime dueDate = DateTime.Parse(dueDateInput, new CultureInfo("en-ZA"));
+                WriteLine("Enter your due date - use the format yyyy/mm/dd");
+                string dueDateInput = ReadLine();
 
-                    WriteLine("Your conception date is = " + dueDate.AddDays(-266).ToShortDateString() + "\n" + "This is an estimate and falls within the \nfollowing possible range:  " + dueDate.AddDays(-252).ToShortDateString() + " to " + "\n" + dueDate.AddDays(-280).ToShortDateString());
-                    WriteLine();
+                DateTime dueDate = DateTime.Parse(dueDateInput, new CultureInfo("en-ZA"));
+               // TODO: Add secondary question to get cycle length, then add
+               // TODO: calculation as part of the output. 
+                WriteLine();
+                WriteLine("Your conception date is = " + dueDate.AddDays(-266).ToShortDateString() + "\n" + "This is an estimate and falls within the \nfollowing possible range:  " + dueDate.AddDays(-252).ToShortDateString() + " to " + "\n" + dueDate.AddDays(-280).ToShortDateString());
 
-                    TimeSpan weeks = DateTime.Now.Subtract(dueDate);
-                    TimeSpan days = DateTime.Now.Subtract(dueDate);
-                    double weeksPreg = (weeks.TotalDays + 280) / 7;
-                    double weeksPreg2 = Math.Truncate(weeksPreg);
-                    double daysPreg = (days.TotalDays + 280) % 7;
-                    double daysPreg2 = Math.Truncate(daysPreg);
-                    WriteLine("You are currently {0} weeks and {1} days pregnant",
-                    arg0: weeksPreg2,
-                    arg1: daysPreg2);
-                    ReadLine();
+                WriteLine();
+                TimeSpan weeks = DateTime.Now.Subtract(dueDate);
+                TimeSpan days = DateTime.Now.Subtract(dueDate);
+                double weeksPreg = (weeks.TotalDays + 280) / 7;
+                double weeksPreg2 = Math.Truncate(weeksPreg);
+                double daysPreg = (days.TotalDays + 280) % 7;                    double daysPreg2 = Math.Truncate(daysPreg);
+                    // TODO: Need to add the LMP calculation.  
+                WriteLine("You are currently {0} weeks and {1} days pregnant",
+                arg0: weeksPreg2,
+                arg1: daysPreg2);
+                WriteLine();
+                WriteLine("You have about {0} weeks remaining...", arg0: (40 -Math.Truncate(weeksPreg)));
+                ReadLine();
 
                 }
                 catch (FormatException ex)
