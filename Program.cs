@@ -108,7 +108,7 @@ namespace ConceptCalc
             }
             else if (option == "5")
             {
-
+                // stays blank = returns void and automatically returns to main menu
             }
 
         }
