@@ -20,7 +20,7 @@
       "outputPath": "/Users/armant/Projects/PreggyCalc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/armant/.config/NuGet/NuGet.Config"
+        "/Users/armant/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
