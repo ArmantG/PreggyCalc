@@ -4,10 +4,10 @@ using static System.Console;
 
 namespace ConceptCalc
 {
-    class Program
+    public class Program
     {
         // Main Program
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             bool displayMenu = true;
             while (displayMenu)
@@ -25,19 +25,15 @@ namespace ConceptCalc
             WriteLine("2: Exit");
             string option = ReadLine();
 
-            if (option == "1")
-            {
-                PregCalc();
-                return true;
-            }
-            else if (option == "2")
-            {
-                return false;
-            }
-            else
-            {
-                return false;
-            }
+      if (option == "1")
+      {
+        PregCalc();
+        return true;
+      }
+      else
+      {
+        return false;
+      }
         }
 
         // COMMENT: Menu Extensions
@@ -77,7 +73,7 @@ namespace ConceptCalc
                 arg0: weeksPreg2,
                 arg1: daysPreg2);
                 WriteLine();
-                WriteLine("You have about {0} weeks remaining...", arg0: (40 -Math.Truncate(weeksPreg)));
+                WriteLine("You have about {0} weeks remaining...", arg0: 40 -Math.Truncate(weeksPreg));
                 ReadLine();
 
                 }
@@ -85,7 +81,7 @@ namespace ConceptCalc
                 {
                     WriteLine("You did not enter a valid date or use the correct format, please read the instructions carefully and try again, idiot...");
                 }
-                catch (System.Exception ex)
+                catch (Exception ex)
                 {
                     WriteLine("You did not enter a valid date or use the correct format, please read the instructions carefully and try again, idiot...");
                 }

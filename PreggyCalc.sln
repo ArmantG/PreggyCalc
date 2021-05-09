@@ -22,4 +22,11 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7AFA3239-84A0-41A6-AEF6-ADD09460ED17}
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.VersionControlPolicy = $2
+		description = "Preggy dates calculator written in C#. Simple interface and menu with multiple input date options. "
+	EndGlobalSection
 EndGlobal
