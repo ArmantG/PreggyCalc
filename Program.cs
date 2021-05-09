@@ -53,14 +53,14 @@ namespace ConceptCalc
             {
                 try
                 {
-                WriteLine("Enter your due date - use the format yyyy/mm/dd");
-                string dueDateInput = ReadLine();
+                WriteLine("Enter your due date - use the format " + CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern);
+                var dueDateInput = ReadLine();
 
-                DateTime dueDate = DateTime.Parse(dueDateInput, new CultureInfo("en-ZA"));
+                var dueDate = DateTime.Parse(dueDateInput);
                // TODO: Add secondary question to get cycle length, then add
                // TODO: calculation as part of the output. 
                 WriteLine();
-                WriteLine("Your conception date is = " + dueDate.AddDays(-266).ToShortDateString() + "\n" + "This is an estimate and falls within the \nfollowing possible range:  " + dueDate.AddDays(-252).ToShortDateString() + " to " + "\n" + dueDate.AddDays(-280).ToShortDateString());
+                WriteLine("Your conception date is = " + dueDate.AddDays(-252).ToShortDateString() + "\n" + "This is an estimate and falls within the \nfollowing possible range:  " + dueDate.AddDays(-266).ToShortDateString() + " to " + "\n" + dueDate.AddDays(-280).ToShortDateString());
 
                 WriteLine();
                 TimeSpan weeks = DateTime.Now.Subtract(dueDate);
