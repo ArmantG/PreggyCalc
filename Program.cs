@@ -56,13 +56,16 @@ namespace ConceptCalc
                 WriteLine("Enter your due date - use the format " + CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern);
                 var dueDateInput = ReadLine();
 
-                var dueDate = DateTime.Parse(dueDateInput);
+                var dueDate = Convert.ToDateTime(dueDateInput);
                // TODO: Add secondary question to get cycle length, then add
                // TODO: calculation as part of the output. 
                 WriteLine();
-                WriteLine("Your conception date is = " + dueDate.AddDays(-252).ToShortDateString() + "\n" + "This is an estimate and falls within the \nfollowing possible range:  " + dueDate.AddDays(-266).ToShortDateString() + " to " + "\n" + dueDate.AddDays(-280).ToShortDateString());
+                WriteLine("Your conception date is = " + dueDate.AddDays(-266).ToShortDateString() + "\n" + "This is an estimate and falls within the following possible range:  \n" + dueDate.AddDays(-280).ToShortDateString() + " to " + dueDate.AddDays(-266).ToShortDateString());
 
                 WriteLine();
+               WriteLine("Your most likely 1st day of last period date is = " + dueDate.AddDays(-280).ToShortDateString());
+
+               WriteLine();
                 TimeSpan weeks = DateTime.Now.Subtract(dueDate);
                 TimeSpan days = DateTime.Now.Subtract(dueDate);
                 double weeksPreg = (weeks.TotalDays + 280) / 7;
