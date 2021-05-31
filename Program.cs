@@ -95,19 +95,18 @@ namespace ConceptCalc
             }
             else if (option == "2")
             {
-                WriteLine("Enter your conception date - use the format mm/dd/yyyy");
+                WriteLine("Enter your conception date - use the format" + CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern);
 
 
             }
             else if (option == "3")
             {
-                WriteLine("Enter the date of the 1st day of your last period - use the format mm/dd/yyyy");
-
+                WriteLine("Enter the date of the 1st day of your last period - use the format"  + CultureInfo.CurrentCulture.DateTimeFormat.ShortDatePattern);
 
             }
             else if (option == "4")
             {
-                WriteLine("how many weeks are you now (just weeks, days in next question");
+                WriteLine("How many weeks are you now (just weeks, days in next question");
             }
             else if (option == "5")
             {
