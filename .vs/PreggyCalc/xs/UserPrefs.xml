@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{B0A8E2FA-2DCB-4E49-8FFD-A623F66F013B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalcFunctions.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="55" Column="1" />
+      <File FileName="CalcFunctions.cs" Line="25" Column="21" NotebookId="1" />
+      <File FileName="Menu.cs" Line="27" Column="4" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PreggyCalc" expanded="True">
             <Node name="PreggyCalc" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="CalcFunctions.cs" selected="True" />
             </Node>
           </Node>
         </State>

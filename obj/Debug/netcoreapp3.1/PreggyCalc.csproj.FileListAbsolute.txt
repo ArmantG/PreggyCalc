@@ -3,7 +3,6 @@
 /Users/armant/Projects/PreggyCalc/bin/Debug/netcoreapp3.1/PreggyCalc.runtimeconfig.dev.json
 /Users/armant/Projects/PreggyCalc/bin/Debug/netcoreapp3.1/PreggyCalc.dll
 /Users/armant/Projects/PreggyCalc/bin/Debug/netcoreapp3.1/PreggyCalc.pdb
-/Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.csprojAssemblyReference.cache
 /Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.AssemblyInfoInputs.cache
 /Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.AssemblyInfo.cs
 /Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.csproj.CoreCompileInputs.cache
