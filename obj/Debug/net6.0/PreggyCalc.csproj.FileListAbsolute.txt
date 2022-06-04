@@ -1,0 +1,15 @@
+/Users/Armant/Developer/C#_Projects/PreggyCalc/bin/Debug/net6.0/PreggyCalc
+/Users/Armant/Developer/C#_Projects/PreggyCalc/bin/Debug/net6.0/PreggyCalc.deps.json
+/Users/Armant/Developer/C#_Projects/PreggyCalc/bin/Debug/net6.0/PreggyCalc.runtimeconfig.json
+/Users/Armant/Developer/C#_Projects/PreggyCalc/bin/Debug/net6.0/PreggyCalc.dll
+/Users/Armant/Developer/C#_Projects/PreggyCalc/bin/Debug/net6.0/PreggyCalc.pdb
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.csproj.AssemblyReference.cache
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.AssemblyInfoInputs.cache
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.AssemblyInfo.cs
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.csproj.CoreCompileInputs.cache
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.dll
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/refint/PreggyCalc.dll
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.pdb
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/PreggyCalc.genruntimeconfig.cache
+/Users/Armant/Developer/C#_Projects/PreggyCalc/obj/Debug/net6.0/ref/PreggyCalc.dll

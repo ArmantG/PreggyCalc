@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J4AuZNwb3A3G923+Qwm/B+YhTiRes7mXH+2IhyNWY86949ksKxNKcTRZWqWEIZNl2mlpm4TZ3rSWwEAQOXtwKw==",
+  "dgSpecHash": "aGBBV1wTV22EcQlc0KDI6nF9VvANcxByaJC3PVG+zRNh1ml831atpP3gnJMwelW8svchQT8wagktht6cEOjseA==",
   "success": true,
-  "projectFilePath": "/Users/armant/Projects/PreggyCalc/PreggyCalc.csproj",
+  "projectFilePath": "/Users/Armant/Developer/C#_Projects/PreggyCalc/PreggyCalc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

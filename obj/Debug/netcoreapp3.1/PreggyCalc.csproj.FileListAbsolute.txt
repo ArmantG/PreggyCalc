@@ -9,3 +9,4 @@
 /Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.dll
 /Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.pdb
 /Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.genruntimeconfig.cache
+/Users/armant/Projects/PreggyCalc/obj/Debug/netcoreapp3.1/PreggyCalc.csproj.AssemblyReference.cache
